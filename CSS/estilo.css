@@ -13,7 +13,8 @@
 }
 
 *{
-    font-family: sans-serif;
+    -font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
     
 }
 
@@ -31,14 +32,7 @@
     margin-bottom: 1em;
 }
 
-.main-title::after{
-    content: "";
-    border-top: 2px solid #e21e38;
-    width: 50%;
-    position: absolute;
-    top: 40px;
-    left: 25%;
-}
+
 .about-title{
     font-size: 20px;
     margin-top: 1em;
@@ -116,7 +110,21 @@
 .img-fluid{
     margin-top: 3em;  
     padding: 1em; 
+    border: solid 1px #0b416e;
+    border-radius: 10px;
+}
 
+
+
+<!--página_Sobre-->
+
+.font-text{
+    font-size: large;
+}
+
+.bord-car{
+    border: solid 1px #0b416e;
+    border-radius: 5px;
 }
 
 
